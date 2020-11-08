@@ -15,10 +15,9 @@ class CreateAvailabilityTable extends Migration
     {
         Schema::create('availability', function (Blueprint $table) {
             $table->id();
-            $table->integer('trip_id');
             $table->integer('from');
             $table->integer('to');
-            $table->integer('count');
+            $table->tinyInteger('status');
             $table->timestamps();
         });
     }
