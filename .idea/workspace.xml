@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57da7a26-bfde-4f56-bfaa-890ea1c650d4" name="Default Changelist" comment="" />
+    <list default="true" id="57da7a26-bfde-4f56-bfaa-890ea1c650d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +16,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,6 +130,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1jxsHSvYbyZ01qZaECODA8Ob4sY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -130,8 +138,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -152,6 +162,12 @@
       <workItem from="1604756990384" duration="698000" />
       <workItem from="1604763758931" duration="763000" />
       <workItem from="1604791090906" duration="904000" />
+      <workItem from="1604794778099" duration="996000" />
+      <workItem from="1604796611152" duration="1796000" />
+      <workItem from="1604798421108" duration="1868000" />
+      <workItem from="1604800351158" duration="1189000" />
+      <workItem from="1604802163072" duration="1800000" />
+      <workItem from="1604803991200" duration="1059000" />
     </task>
     <servers />
   </component>
@@ -159,9 +175,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1604794779117">
+    <state x="279" y="58" key="SettingsEditor" timestamp="1604796409317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604794779117" />
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604796409317" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1604803992262">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604803992262" />
   </component>
 </project>
