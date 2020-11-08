@@ -16,12 +16,12 @@ class CreateTripsTable extends Migration
         Schema::create('trips', function (Blueprint $table) {
             $table->id();
             $table->integer('bus_id');
-            $table->integer('start_id');
-            $table->integer('end_id');
             $table->dateTime('start_time');
             $table->dateTime('arrival_time');
 
             $table->timestamps();
+
+            $table->foreign('bus_id')->references('id')->on('buses')->onDelete('cascade');
         });
     }
 

@@ -17,6 +17,9 @@ class CreateSeatsTable extends Migration
             $table->id();
             $table->integer('bus_id');
             $table->timestamps();
+
+            $table->foreign('bus_id')->references('id')->on('buses')->onDelete('cascade');
+
         });
     }
 

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateAvailabilityTable extends Migration
+class CreateSeatAvailabilityTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,20 @@ class CreateAvailabilityTable extends Migration
      */
     public function up()
     {
-        Schema::create('availability', function (Blueprint $table) {
+        Schema::create('seat_availability', function (Blueprint $table) {
             $table->id();
-            $table->integer('from');
-            $table->integer('to');
-            $table->tinyInteger('status');
+            $table->integer('seat_id');
+            $table->integer('from_point_id');
+            $table->integer('to_point_id');
+            $table->integer('user_id');
             $table->timestamps();
+
+            $table->foreign('seat_id')->references('id')->on('seats')->onDelete('cascade');
+            $table->foreign('from_point_id')->references('id')->on('trip_stop_points')->onDelete('cascade');
+            $table->foreign('to_point_id')->references('id')->on('trip_stop_points')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
+
+
         });
     }
 

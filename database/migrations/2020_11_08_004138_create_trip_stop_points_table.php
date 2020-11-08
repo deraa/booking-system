@@ -20,6 +20,10 @@ class CreateTripStopPointsTable extends Migration
             $table->integer('route_order');
 
             $table->timestamps();
+
+            $table->foreign('trip_id')->references('id')->on('trips')->onDelete('cascade');
+            $table->foreign('station_id')->references('id')->on('stations')->onDelete('cascade');
+
         });
     }
 
