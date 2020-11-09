@@ -20,6 +20,8 @@ class StationSeeder extends Seeder
             ['name' => 'AlFayyum'],
             ['name' => 'AlMinya'],
             ['name' => 'Asyut'],
+            ['name' => 'Aswan'],
+            ['name' => 'Alex'],
         ];
 
         Station::insert($data);

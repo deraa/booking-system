@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57da7a26-bfde-4f56-bfaa-890ea1c650d4" name="Default Changelist" comment="" />
+    <list default="true" id="57da7a26-bfde-4f56-bfaa-890ea1c650d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_08_004107_create_trips_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_08_004107_create_trips_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_08_004138_create_trip_stop_points_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_08_004138_create_trip_stop_points_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_08_004239_create_stations_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_08_004137_create_stations_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_08_011431_create_seat_availability_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_08_011431_create_seat_availability_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_08_022824_create_seats_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_08_022824_create_seats_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/StationSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/StationSeeder.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,11 +140,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -142,6 +159,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -161,13 +179,19 @@
       <workItem from="1604800351158" duration="1189000" />
       <workItem from="1604802163072" duration="1800000" />
       <workItem from="1604803991200" duration="1059000" />
+      <workItem from="1604852952885" duration="1547000" />
+      <workItem from="1604883395927" duration="2100000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="476" y="52" width="404" height="633" key="RollbackChangesDialog" timestamp="1604854091575">
+      <screen x="0" y="27" width="1366" height="686" />
+    </state>
+    <state x="476" y="52" width="404" height="633" key="RollbackChangesDialog/0.27.1366.686@0.27.1366.686" timestamp="1604854091575" />
     <state x="279" y="58" key="SettingsEditor" timestamp="1604796409317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

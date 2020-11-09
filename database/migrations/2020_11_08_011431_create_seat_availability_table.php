@@ -15,10 +15,10 @@ class CreateSeatAvailabilityTable extends Migration
     {
         Schema::create('seat_availability', function (Blueprint $table) {
             $table->id();
-            $table->integer('seat_id');
-            $table->integer('from_point_id');
-            $table->integer('to_point_id');
-            $table->integer('user_id');
+            $table->unsignedBigInteger('seat_id');
+            $table->unsignedBigInteger('from_point_id');
+            $table->unsignedBigInteger('to_point_id');
+            $table->unsignedBigInteger('user_id');
             $table->timestamps();
 
             $table->foreign('seat_id')->references('id')->on('seats')->onDelete('cascade');

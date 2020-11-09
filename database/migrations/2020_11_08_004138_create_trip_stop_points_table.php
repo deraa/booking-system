@@ -15,8 +15,8 @@ class CreateTripStopPointsTable extends Migration
     {
         Schema::create('trip_stop_points', function (Blueprint $table) {
             $table->id();
-            $table->integer('trip_id');
-            $table->integer('station_id');
+            $table->unsignedBigInteger('trip_id');
+            $table->unsignedBigInteger('station_id');
             $table->integer('route_order');
 
             $table->timestamps();

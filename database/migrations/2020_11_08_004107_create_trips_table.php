@@ -15,7 +15,7 @@ class CreateTripsTable extends Migration
     {
         Schema::create('trips', function (Blueprint $table) {
             $table->id();
-            $table->integer('bus_id');
+            $table->unsignedBigInteger('bus_id');
             $table->dateTime('start_time');
             $table->dateTime('arrival_time');
 
