@@ -15,9 +15,16 @@ class Trip extends Model
      * @var array
      */
     protected $fillable = [
-        'start_id',
-        'end_id',
+        'bus_id',
         'start_time',
         'arrival_time',
     ];
+
+    /**
+     * Get the bus that belong to the trip.
+     */
+    public function bus()
+    {
+        return $this->belongsTo(Bus::class);
+    }
 }

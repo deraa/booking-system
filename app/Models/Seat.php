@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Bus extends Model
+class Seat extends Model
 {
     use HasFactory;
 
@@ -15,22 +15,14 @@ class Bus extends Model
      * @var array
      */
     protected $fillable = [
-        'plate_number',
+        'bus_id',
     ];
 
     /**
      * Get the bus that belong to the trip.
      */
-    public function seats()
+    public function bus()
     {
-        return $this->hasMany(Seat::class);
-    }
-
-    /**
-     * Get the bus that belong to the trip.
-     */
-    public function trip()
-    {
-        return $this->belongsTo(Trip::class);
+        return $this->belongsTo(Bus::class);
     }
 }
